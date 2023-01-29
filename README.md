@@ -1,3 +1,74 @@
 # Hello Sagar again, after http
 Still learning and never accomplishing any bigger target,
 learn more and keep building more
+# Hello Sagar again, after http
+Still learning and never accomplishing any bigger target,
+learn more and keep building more
+
+
+## SubHeader
+open folder git 
+then git clone https://github.com/sagar757/Demo_repo.git
+after cloning edited the file
+was practing on VisualStudio Code on my Laptop
+git status command
+create a new  file with name with index.html
+that is still untracked
+use " git add . " or use " git add file_name" to track
+to commint 
+use git commit -m "added index.html" -m "some description"
+-m stand for message
+
+git commit is to save the file locally 
+
+**************""Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'Admin@DESKTOP-BDPM812.(none)')"
+that was the error because the havent setup the email id
+
+to set up
+
+git config --global user.email "kyouremail.id"
+
+save changes.
+
+***********************************************************************************************************
+To push the save the changes to github online use gitbash to generate ssh key using below command
+
+use ssh account setup
+ssh-keygen -t rsa -b 4096 -C "kltechnology.recruit@gmail.com"
+
+once it generate check using ls | grep testkey
+
+cat testkey to see the content of teh generate file
+paste the content on the github account in the setting ssh key
+ssh-add ~/.ssh/privatefilename
+ssh -T git@github.com to verify succesfully login using git bash 
+
+but on visual studio code error came as permission denied (public key)
+
+try using ssh -vT git@github.com
+
+
+**************************************************************************
+
+
+
+
+ push the changes to github online
+
+git push origin mast
+
+
+
+
