@@ -91,3 +91,15 @@ git commit -m "initial commit"
 git push origin main
 Success!
 *********************************************************
+start ssh agent use 
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/testkey
+ssh -T git@github.com
+**********************************************************
+git add .
+git commit
+git status
+git init
+
+
+
