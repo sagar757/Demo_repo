@@ -91,6 +91,7 @@ git commit -m "initial commit"
 git push origin main
 Success!
 *********************************************************
+<<<<<<< HEAD
 pbcopy < ~/vsgitbash.pub
 
 step 
@@ -109,3 +110,17 @@ ssh connection
 eval "$(ssh-agent -s)" // start the ssh agent
 ssh-add ~/.ssh/testkey  // load the private key to ssh agent
 ssh -T git@github.com  //connect to the websit
+=======
+start ssh agent use 
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/testkey
+ssh -T git@github.com
+**********************************************************
+git add .
+git commit
+git status
+git init
+
+
+
+>>>>>>> aa8a2efbac860074c597c541f90be29ad284dd89
