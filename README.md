@@ -1,4 +1,4 @@
-# Hello Sagar again, after http
+GIT INIT# Hello Sagar again, after http
 Still learning and never accomplishing any bigger target,
 learn more and keep building more
 # Hello Sagar again, after http
@@ -91,3 +91,21 @@ git commit -m "initial commit"
 git push origin main
 Success!
 *********************************************************
+pbcopy < ~/vsgitbash.pub
+
+step 
+with new file not clone from github
+git init
+git status
+git add .
+git commit -m "some description" -m "somedescription"
+git remote add origin git@github.com:sagar757/ledand-buzzer.git
+git remote -v
+git push origin master
+
+
+ssh connection
+ssh connection
+eval "$(ssh-agent -s)" // start the ssh agent
+ssh-add ~/.ssh/testkey  // load the private key to ssh agent
+ssh -T git@github.com  //connect to the websit
